@@ -1,5 +1,5 @@
 function getYearData(year,svg1,svg2,svg3,svg4, tbl1, tbl2, tbl3, tbl4) {
-d3.csv("https://raw.githubusercontent.com/akulapa/Data608-FinalProject/master/sample.csv", function(error, csv_data) {
+d3.csv("https://raw.githubusercontent.com/akulapa/Akula-DATA608-Module6/master/sample.csv", function(error, csv_data) {
 	
 	  function tabulate(data1, data2, columns, columnDispNames, tbl) {
 		var grandTotal = 0;
